@@ -1,3 +1,5 @@
+# Trading-Backtester
+
 For this application, I have designed and created a backtesting stock market simulation that allows users to create their own trading strategies and evaluate how they would have performed on historical data for different time windows and stocks. My motivation for creating this was partially to see how commonly preached strategies actually stack up against each other, and also partially to have a sandbox where I can search for potential edges in the market as my quantitative skills and knowledge of trading continue to improve.
 
 Several simple strategies are included in this repository as examples of the structure and tools available to someone creating their own trading strategies. Of course, there is plenty of room for creativity to bring all kinds of techniques into the picture within the lines of the available parameters.
