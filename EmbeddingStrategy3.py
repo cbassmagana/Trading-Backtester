@@ -25,7 +25,7 @@ RANDOM_SEED = 17
 np.random.seed(RANDOM_SEED)
 
 PINECONE_API_KEY = "REQUEST FROM AUTHOR"
-PQT_PATH = "SourceData/comp_total_q.pqt"
+PQT_PATH = "SourceData/company_info.pqt"
 
 EMBEDDING_DIMENSION = 1536
 INDEX_NAME = "10k-filings-index"
@@ -65,7 +65,7 @@ def safe_float(x):
     except Exception:
         return np.nan
 
-def attempt_fetch_sp500_return(year_end=REPORTS_YEAR, csv_path="Source_Data/sp500_data.csv"):
+def attempt_fetch_sp500_return(year_end=REPORTS_YEAR, csv_path="SourceData/sp500_data.csv"):
     if not os.path.exists(csv_path):
         print(f"[Error] CSV file not found at: {csv_path}")
         return None

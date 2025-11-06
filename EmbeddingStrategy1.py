@@ -23,7 +23,7 @@ RANDOM_SEED = 17
 np.random.seed(RANDOM_SEED)
 
 PINECONE_API_KEY = "REQUEST FROM AUTHOR"
-PQT_PATH = "SourceData/comp_total_q.pqt"
+PQT_PATH = "SourceData/company_info.pqt"
 
 EMBEDDING_DIMENSION = 1536
 BATCH_SIZE = 100
@@ -65,7 +65,7 @@ def safe_float(x):
     except Exception:
         return np.nan
 
-def attempt_fetch_sp500_return(year_end=REPORTS_YEAR, csv_path="Source_Data/sp500_data.csv"):
+def attempt_fetch_sp500_return(year_end=REPORTS_YEAR, csv_path="SourceData/sp500_data.csv"):
     try:
         df = pd.read_csv(csv_path, parse_dates=["Date"])
         df = df.sort_values("Date")
