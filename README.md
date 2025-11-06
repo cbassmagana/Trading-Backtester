@@ -2,7 +2,7 @@
 
 ## About This Project
 
-In this application, I explore several different novel trading strategies as well as create the technical infrastructure to assess, backtest, and extend said strategies within different contexts.
+In this application, I explore several different novel trading strategies, as well as create the technical infrastructure to assess, backtest, and extend said strategies within different contexts.
 
 ### Embedding Strategies
 
