@@ -149,7 +149,7 @@ def main():
     comp_df["fyear"] = pd.to_numeric(comp_df["fyear"], errors="coerce").astype("Int64")
     comp_df["prcc_c"] = pd.to_numeric(comp_df["prcc_c"], errors="coerce")
     comp_df = comp_df.dropna(subset=["cik","fyear"])
-    print(f"[Info] {len(comp_df)} records loaded.")
+    print(f"[Info] {len(comp_df)} records loaded")
 
     matches = fetch_all_vectors(NAMESPACE, years=range(2010,2020))
     matches = apply_pca(matches, n_components=PCA_DIM)
