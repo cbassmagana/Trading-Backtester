@@ -1,0 +1,243 @@
+{
+    "parameters": {
+        "namespace": "large_sample",
+        "years": [
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019
+        ],
+        "pca_dim": 64,
+        "year_end": 2018,
+        "random_seed": 17,
+        "model_type": "RandomForestRegressor",
+        "n_estimators": 50
+    },
+    "results": {
+        "portfolio_return": 0.7883527829277026,
+        "sp500_return": 0.31223849133741854,
+        "avg_dataset_return": 0.628687301703144,
+        "num_train": 25048,
+        "num_test": 2966,
+        "num_valid_returns": 30872
+    },
+    "top30_holdings": [
+        {
+            "cik": "23194",
+            "fyear": 2018,
+            "predicted_return": 12.885740295298387,
+            "actual_return": 0.8167770419426048,
+            "weight": 0.05713324925703567
+        },
+        {
+            "cik": "749038",
+            "fyear": 2018,
+            "predicted_return": 12.614152511334412,
+            "actual_return": 0.3141993957703926,
+            "weight": 0.055929073773067446
+        },
+        {
+            "cik": "1355848",
+            "fyear": 2018,
+            "predicted_return": 11.175731652088963,
+            "actual_return": -0.8731627906976744,
+            "weight": 0.049551352695002944
+        },
+        {
+            "cik": "1388319",
+            "fyear": 2018,
+            "predicted_return": 10.675878224482945,
+            "actual_return": -0.78125,
+            "weight": 0.04733508495896776
+        },
+        {
+            "cik": "1343009",
+            "fyear": 2018,
+            "predicted_return": 10.12085245183265,
+            "actual_return": -0.5779310344827586,
+            "weight": 0.04487419213587725
+        },
+        {
+            "cik": "1512927",
+            "fyear": 2018,
+            "predicted_return": 9.93172371279872,
+            "actual_return": -0.25,
+            "weight": 0.044035626470167136
+        },
+        {
+            "cik": "1288750",
+            "fyear": 2018,
+            "predicted_return": 9.433084626502398,
+            "actual_return": 0.13333333333333353,
+            "weight": 0.04182474292340941
+        },
+        {
+            "cik": "1442236",
+            "fyear": 2018,
+            "predicted_return": 8.677963717810389,
+            "actual_return": 0.6029411764705883,
+            "weight": 0.038476661237234096
+        },
+        {
+            "cik": "1084267",
+            "fyear": 2018,
+            "predicted_return": 8.677963717810389,
+            "actual_return": -0.4178571428571429,
+            "weight": 0.038476661237234096
+        },
+        {
+            "cik": "1362703",
+            "fyear": 2018,
+            "predicted_return": 8.549817401434304,
+            "actual_return": 8.056603773584905,
+            "weight": 0.03790848158537838
+        },
+        {
+            "cik": "356590",
+            "fyear": 2018,
+            "predicted_return": 8.087816407940299,
+            "actual_return": -0.7420689655172413,
+            "weight": 0.03586004530516543
+        },
+        {
+            "cik": "1175151",
+            "fyear": 2018,
+            "predicted_return": 7.865615914561288,
+            "actual_return": -0.5235148514851485,
+            "weight": 0.03487484492999635
+        },
+        {
+            "cik": "1514183",
+            "fyear": 2018,
+            "predicted_return": 7.019682678679243,
+            "actual_return": -0.65,
+            "weight": 0.03112411634841116
+        },
+        {
+            "cik": "1117171",
+            "fyear": 2018,
+            "predicted_return": 6.784666759788475,
+            "actual_return": 2.027112397999473,
+            "weight": 0.030082094488149344
+        },
+        {
+            "cik": "1072379",
+            "fyear": 2018,
+            "predicted_return": 6.723713535196652,
+            "actual_return": 0.045742092457421,
+            "weight": 0.02981183793370867
+        },
+        {
+            "cik": "925741",
+            "fyear": 2018,
+            "predicted_return": 6.600793655130459,
+            "actual_return": 2.066666666666667,
+            "weight": 0.029266831439279384
+        },
+        {
+            "cik": "1375151",
+            "fyear": 2018,
+            "predicted_return": 6.354196063604435,
+            "actual_return": 0.429786066922655,
+            "weight": 0.028173458350891002
+        },
+        {
+            "cik": "1120970",
+            "fyear": 2018,
+            "predicted_return": 6.3132524937181165,
+            "actual_return": 2.318796992481203,
+            "weight": 0.02799192130837887
+        },
+        {
+            "cik": "1413488",
+            "fyear": 2018,
+            "predicted_return": 6.008145084090724,
+            "actual_return": 15.875,
+            "weight": 0.026639125327322922
+        },
+        {
+            "cik": "1309057",
+            "fyear": 2018,
+            "predicted_return": 5.892718143287356,
+            "actual_return": -0.4444444444444444,
+            "weight": 0.026127341290956604
+        },
+        {
+            "cik": "1137883",
+            "fyear": 2018,
+            "predicted_return": 5.883593495863368,
+            "actual_return": 0.20563380281690158,
+            "weight": 0.026086884107767258
+        },
+        {
+            "cik": "1532158",
+            "fyear": 2018,
+            "predicted_return": 5.812985462596663,
+            "actual_return": 0.7152317880794701,
+            "weight": 0.025773819722506624
+        },
+        {
+            "cik": "1500122",
+            "fyear": 2018,
+            "predicted_return": 5.72320950809743,
+            "actual_return": -0.806,
+            "weight": 0.02537576793284232
+        },
+        {
+            "cik": "1350102",
+            "fyear": 2018,
+            "predicted_return": 5.675987153322585,
+            "actual_return": -0.9932432432432432,
+            "weight": 0.025166391792703923
+        },
+        {
+            "cik": "835662",
+            "fyear": 2018,
+            "predicted_return": 5.602024583675898,
+            "actual_return": 1.0,
+            "weight": 0.024838453945868935
+        },
+        {
+            "cik": "727634",
+            "fyear": 2018,
+            "predicted_return": 5.456571324160654,
+            "actual_return": -0.3571428571428571,
+            "weight": 0.024193538159838008
+        },
+        {
+            "cik": "844856",
+            "fyear": 2018,
+            "predicted_return": 5.42679869050819,
+            "actual_return": 0.0,
+            "weight": 0.02406153120792658
+        },
+        {
+            "cik": "1539850",
+            "fyear": 2018,
+            "predicted_return": 5.331563687588309,
+            "actual_return": -0.6219587628865979,
+            "weight": 0.023639274897064768
+        },
+        {
+            "cik": "1491829",
+            "fyear": 2018,
+            "predicted_return": 5.26435028354395,
+            "actual_return": 0.15500000000000003,
+            "weight": 0.023341261738435353
+        },
+        {
+            "cik": "1356576",
+            "fyear": 2018,
+            "predicted_return": 4.96778350298549,
+            "actual_return": -0.28597230583985556,
+            "weight": 0.022026333499412454
+        }
+    ],
+    "comments": "This regression for returns in 2019 beat SP500 and beat average return of available stocks to select."
+}

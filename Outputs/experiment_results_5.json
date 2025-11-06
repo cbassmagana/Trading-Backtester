@@ -1,0 +1,242 @@
+{
+    "parameters": {
+        "namespace": "large_sample",
+        "years": [
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019
+        ],
+        "pca_dim": 64,
+        "year_end": 2017,
+        "random_seed": 17,
+        "model_type": "KNN",
+        "n_neighbors": 50
+    },
+    "results": {
+        "portfolio_return": -0.030946715936692848,
+        "sp500_return": -0.045689556856590485,
+        "avg_dataset_return": 0.018272358601786085,
+        "num_train": 14942,
+        "num_test": 3067
+    },
+    "top30_holdings": [
+        {
+            "cik": "1407583",
+            "start_year": 2015,
+            "predicted_return": 5.095429859913167,
+            "actual_return": -0.9693392359403181,
+            "weight": 0.048474649784749656
+        },
+        {
+            "cik": "1389034",
+            "start_year": 2015,
+            "predicted_return": 4.820814975976972,
+            "actual_return": 1.4,
+            "weight": 0.04586214000825092
+        },
+        {
+            "cik": "1464865",
+            "start_year": 2015,
+            "predicted_return": 4.303606266526867,
+            "actual_return": 0.29032258064516125,
+            "weight": 0.040941748256132206
+        },
+        {
+            "cik": "1362703",
+            "start_year": 2015,
+            "predicted_return": 4.2749421706423165,
+            "actual_return": -0.7644444444444445,
+            "weight": 0.04066905644256581
+        },
+        {
+            "cik": "1468679",
+            "start_year": 2015,
+            "predicted_return": 4.112937580652634,
+            "actual_return": -0.3058823529411765,
+            "weight": 0.039127848736999316
+        },
+        {
+            "cik": "1408146",
+            "start_year": 2015,
+            "predicted_return": 3.8269793420750626,
+            "actual_return": -0.10638297872340419,
+            "weight": 0.036407425563840794
+        },
+        {
+            "cik": "869531",
+            "start_year": 2015,
+            "predicted_return": 3.800696635441326,
+            "actual_return": 1.0183529411764702,
+            "weight": 0.036157388759391985
+        },
+        {
+            "cik": "701719",
+            "start_year": 2015,
+            "predicted_return": 3.681635608993226,
+            "actual_return": -0.506015037593985,
+            "weight": 0.03502471855908374
+        },
+        {
+            "cik": "1337298",
+            "start_year": 2015,
+            "predicted_return": 3.6352503966514935,
+            "actual_return": 0.1256210078069553,
+            "weight": 0.03458343941575842
+        },
+        {
+            "cik": "1134115",
+            "start_year": 2015,
+            "predicted_return": 3.618601907091921,
+            "actual_return": 0.20813953488372094,
+            "weight": 0.034425056369963916
+        },
+        {
+            "cik": "886128",
+            "start_year": 2015,
+            "predicted_return": 3.5747725564220043,
+            "actual_return": -0.6761764705882353,
+            "weight": 0.03400809205440499
+        },
+        {
+            "cik": "790816",
+            "start_year": 2015,
+            "predicted_return": 3.4559385226838564,
+            "actual_return": -0.29246838922484886,
+            "weight": 0.03287758131707065
+        },
+        {
+            "cik": "1120970",
+            "start_year": 2015,
+            "predicted_return": 3.42352395086046,
+            "actual_return": -0.658974358974359,
+            "weight": 0.032569209882224025
+        },
+        {
+            "cik": "1522767",
+            "start_year": 2015,
+            "predicted_return": 3.4054108195765576,
+            "actual_return": 3.7101449275362324,
+            "weight": 0.0323968931749723
+        },
+        {
+            "cik": "1513856",
+            "start_year": 2015,
+            "predicted_return": 3.355211910258384,
+            "actual_return": -0.4928977272727273,
+            "weight": 0.03191933296598606
+        },
+        {
+            "cik": "847942",
+            "start_year": 2015,
+            "predicted_return": 3.3336590561190453,
+            "actual_return": 0.0,
+            "weight": 0.031714292942869336
+        },
+        {
+            "cik": "917225",
+            "start_year": 2015,
+            "predicted_return": 3.2574367978457643,
+            "actual_return": -0.6145038167938932,
+            "weight": 0.03098916329195054
+        },
+        {
+            "cik": "894560",
+            "start_year": 2015,
+            "predicted_return": 3.2456184034093516,
+            "actual_return": 0.3793103448275863,
+            "weight": 0.03087673067152921
+        },
+        {
+            "cik": "855683",
+            "start_year": 2015,
+            "predicted_return": 3.2444103637304154,
+            "actual_return": -0.7192209991532599,
+            "weight": 0.03086523815726202
+        },
+        {
+            "cik": "1133869",
+            "start_year": 2015,
+            "predicted_return": 3.1894592974080167,
+            "actual_return": -0.740506329113924,
+            "weight": 0.030342468976150727
+        },
+        {
+            "cik": "1470550",
+            "start_year": 2015,
+            "predicted_return": 3.163635925123244,
+            "actual_return": 0.0,
+            "weight": 0.03009680198392823
+        },
+        {
+            "cik": "783324",
+            "start_year": 2015,
+            "predicted_return": 3.087108549438875,
+            "actual_return": -0.2499999999999999,
+            "weight": 0.029368769641764075
+        },
+        {
+            "cik": "1040850",
+            "start_year": 2015,
+            "predicted_return": 3.0644523212000805,
+            "actual_return": -0.9027027027027027,
+            "weight": 0.029153232825536047
+        },
+        {
+            "cik": "1502377",
+            "start_year": 2015,
+            "predicted_return": 3.0547745170278215,
+            "actual_return": -0.03581267217630846,
+            "weight": 0.02906116440720173
+        },
+        {
+            "cik": "88205",
+            "start_year": 2015,
+            "predicted_return": 3.0451122842322254,
+            "actual_return": -0.10767760433259,
+            "weight": 0.02896924412495233
+        },
+        {
+            "cik": "1410428",
+            "start_year": 2015,
+            "predicted_return": 3.042798774860008,
+            "actual_return": -0.8861313868613139,
+            "weight": 0.02894723488143899
+        },
+        {
+            "cik": "1533924",
+            "start_year": 2015,
+            "predicted_return": 3.0225124471670592,
+            "actual_return": -0.1428571428571429,
+            "weight": 0.02875424377816216
+        },
+        {
+            "cik": "765207",
+            "start_year": 2015,
+            "predicted_return": 3.0021805503826506,
+            "actual_return": -0.03415350716121923,
+            "weight": 0.02856081915979234
+        },
+        {
+            "cik": "719413",
+            "start_year": 2015,
+            "predicted_return": 2.9935722040259685,
+            "actual_return": -0.4055415617128464,
+            "weight": 0.028478924876809687
+        },
+        {
+            "cik": "278165",
+            "start_year": 2015,
+            "predicted_return": 2.982867688891843,
+            "actual_return": 1.3384850868428328,
+            "weight": 0.02837708898925787
+        }
+    ],
+    "comments": "3-year KNN approach for 2018 produced returns similar to SP500 and to average available returns."
+}
