@@ -1,4 +1,4 @@
-# Trading-Backtester
+# Quantitative-Trading
 
 For this application, I have designed and created a backtesting stock market simulation that allows users to create their own trading strategies and evaluate how they would have performed on historical data for different time windows and stocks. My motivation for creating this was partially to see how commonly preached strategies actually stack up against each other, and also partially to have a sandbox where I can search for potential edges in the market as my quantitative skills and knowledge of trading continue to improve.
 
