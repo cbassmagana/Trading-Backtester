@@ -1,4 +1,4 @@
-# Quantitative-Trading
+# Quantitative-Strategy-Research
 
 ## About This Project
 
